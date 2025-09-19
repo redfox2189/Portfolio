@@ -49,6 +49,15 @@ main{
     padding: 10px;
     border-radius: 5%;
     float: left;
+    max-block-size: 120%;
+}
+.project{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5%;
+    float: right;
+    max-block-size: 120%;
 }
 footer{
     text-align : center;
