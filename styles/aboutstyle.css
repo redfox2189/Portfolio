@@ -31,52 +31,6 @@ nav a{
 nav a:hover{
     text-decoration : underline;
 }
-.image img{
-    width : 30%;
-    height : auto;
-    margin : 1%;
-    display:block;
-}
-.hero text{
-    position:absolute;
-    top : 50%;
-    left : 50%;
-    transform : translate(-50%, -50%);
-    color : white;
-    font-size : 2 rem;
-    padding : 50px 20px;
-}
-main{
-    margin : 1%;
-}
-.features{
-    display : flex;
-    justify-content : space-between;
-    margin : 1%;
-    padding: 0 1em;
-}
-.feature{
-    background-color : #e2e2e2;
-    padding : 1 rem;
-    margin : 1%;
-    flex : 1;
-    text-align : center;
-}
-.gallery{
-    display : grid;
-    grid-template-columns : repeat(auto-fit, minmax(200px, 1fr));
-    gap : 10px;
-    margin : 1%;
-}
-.gallery-grid{
-    display : grid;
-    grid-template-columns : repeat(auto-fit, minmax(200px, 1fr));
-    gap : 10px;
-}
-.gallery-grid img{
-    width : 100%;
-    height : auto;
-}   
 footer{
     text-align : center;
     padding : 1 rem 0;
